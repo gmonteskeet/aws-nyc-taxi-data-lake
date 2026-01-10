@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NYC Taxi Data Lake - Production Pipeline
 
 [![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20Glue%20%7C%20S3%20%7C%20Athena-orange)](https://aws.amazon.com/)
@@ -329,3 +330,6 @@ This project demonstrates production data engineering skills for the **Klarna Da
 - Production-ready AWS architecture
 
 **Tech Stack**: AWS | Python | PySpark | Airflow | Terraform
+=======
+# aws-nyc-taxi-data-lake
+>>>>>>> 4d93deac51aaa6920ede9b84252c94f484d2a1ca
