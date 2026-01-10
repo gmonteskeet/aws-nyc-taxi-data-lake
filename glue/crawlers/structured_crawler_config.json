@@ -1,0 +1,14 @@
+{
+  "Name": "structured-yellow-trips-crawler",
+  "Description": "Discovers partitions in structured zone",
+  "DatabaseName": "nyc_tlc_pipeline_database",
+  "Targets": {
+    "S3Targets": [{
+      "Path": "s3://peruvianbucket/structured/yellow-trips/"
+    }]
+  },
+  "SchemaChangePolicy": {
+    "UpdateBehavior": "UPDATE_IN_DATABASE",
+    "DeleteBehavior": "LOG"
+  }
+}

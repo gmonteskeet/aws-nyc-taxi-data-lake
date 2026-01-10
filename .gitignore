@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Terraform
+.terraform/
+*.tfstate*
+*.tfvars
+
+# AWS & Secrets
+.aws/
+*.pem
+.env
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Data
+*.parquet
+*.csv
+data/
+
+# Logs
+*.log
+
+# Package files
+*.zip
