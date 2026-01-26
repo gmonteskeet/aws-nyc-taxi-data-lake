@@ -37,17 +37,6 @@ NYC TLC API → Lambda (generic) → S3 (Landing) → Glue (validation) → S3 (
 
 ---
 
-## 💼 Relevance to Klarna Data Scientist Role
-
-| Requirement | Implementation |
-|-------------|----------------|
-| **Production AWS code** | ✅ Parameterized Lambda, PySpark Glue jobs, Terraform IaC |
-| **Forecasting features** | ✅ 11 time-series features (hour, day, week, calculated metrics) |
-| **Python & SQL** | ✅ PySpark transformations, Athena analytics queries |
-| **Workflow orchestration** | ✅ Airflow with manual trigger, branching logic, backfill support |
-| **Data quality** | ✅ 8 validation rules, quarantine with categorization |
-| **Clear communication** | ✅ Comprehensive docs, inline comments, design rationale |
-
 ### Fintech Translation
 
 This architecture directly applies to **transaction forecasting**:
@@ -311,12 +300,10 @@ A: Direct translation - replace trips with transactions, use same time-series fe
 
 ## 👤 Author
 
-**[Your Name]**  
+**Gerson Montesinos**  
 *Data Engineer | AI & Data Solutions Specialist*
 
-📧 your.email@example.com  
-💼 [LinkedIn](https://linkedin.com/in/yourprofile)  
-🌐 [Portfolio](https://yourportfolio.com)
+💼 [LinkedIn](https://linkedin.com/in/gersonmontesinos)  
 
 ---
 
