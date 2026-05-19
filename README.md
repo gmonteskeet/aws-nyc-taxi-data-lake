@@ -264,7 +264,6 @@ See [QUICKSTART.md](QUICKSTART.md) for the full 5-minute deployment walkthrough.
 ### Quality
 
 - **Average data quality rate:** 98.7%
-- **Query performance:** 95% faster with Hive partitioning vs unpartitioned scan
 - **Quarantine categorization:** 12 distinct failure modes surfaced
 
 ### Common quarantine reasons observed
